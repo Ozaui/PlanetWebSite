@@ -1,0 +1,32 @@
+.navbar-brand {
+  margin-top: 10px;
+}
+#logo {
+  width: 125px;
+}
+#main {
+  background: #085e7d !important;
+}
+#footer {
+  background: #085e7d !important;
+}
+.card-img-top {
+  width: 100%;
+  height: 25vh;
+  object-fit: cover;
+}
+/* Ekran genişliği 600px'den büyükse farklı arka plan */
+@media screen and (min-width: 100px) {
+  #MilkyWayGalaxyBg {
+    background-image: url("img/MilkyWayPlanets-mobile.jpg");
+    height: 1713px;
+  }
+}
+
+/* Ekran genişliği 1200px'den büyükse daha farklı arka plan */
+@media screen and (min-width: 1000px) {
+  #MilkyWayGalaxyBg {
+    background-image: url("img/MilkyWayPlanets.jpg");
+    height: 1080px;
+  }
+}
