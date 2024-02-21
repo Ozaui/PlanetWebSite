@@ -3,8 +3,10 @@
   padding-right: 0px !important;
 }
 body {
-  overflow-x: hidden;
+  overflow-x: hidden !important;
+  scroll-behavior: smooth;
 }
+
 ul {
   list-style: none;
 }
@@ -14,7 +16,11 @@ ul {
 #logo {
   width: 125px;
 }
-
+#PC-button a,
+#Mobile-button a {
+  text-decoration: none !important;
+  color: inherit !important;
+}
 #footer {
   background: #085e7d !important;
 }
@@ -148,12 +154,13 @@ ul {
   #SunBg {
     background-image: url("img/Sun-mobile.jpg");
     height: 900px;
+    width: auto;
   }
 }
 
 @media screen and (min-width: 1000px) {
   #SunBg {
-    background-image: url("img/Sun.jpg");
+    background-image: url("img/Sun-PC.png");
     background-size: cover;
     height: 1080px;
   }
