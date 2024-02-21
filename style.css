@@ -1,3 +1,6 @@
+body {
+  overflow-x: hidden;
+}
 * {
   margin: 0px;
   padding: 0px;
@@ -30,7 +33,7 @@ ul {
 
 @media screen and (min-width: 1000px) {
   #MilkyWayGalaxyBg {
-    background-image: url("img/MilkyWayPlanets.jpg");
+    background-image: url("img/MilkyWayPlanet.jpg");
     background-size: cover;
     height: 1080px;
   }
@@ -85,4 +88,55 @@ ul {
 #Pluto-mobile {
   margin-top: 45px;
   margin-left: 60px;
+}
+
+#responsiveButtonForPC {
+  display: none; /* Düğmeyi varsayılan olarak gizle */
+}
+
+@media only screen and (min-width: 1000px) {
+  #responsiveButtonForPC {
+    display: block; /* Ekran genişliği 600 pikselden küçükse düğmeyi göster */
+  }
+}
+
+#Sun-PC {
+  margin-top: 200px;
+  margin-left: 250px;
+}
+#Mercury-PC {
+  margin-top: 200px;
+  margin-left: 40px;
+}
+#Venus-PC {
+  margin-top: 200px;
+  margin-left: 40px;
+}
+#Earth-PC {
+  margin-top: 200px;
+  margin-left: 80px;
+}
+#Mars-PC {
+  margin-top: 200px;
+  margin-left: 75px;
+}
+#Jupiter-PC {
+  margin-top: 200px;
+  margin-left: 270px;
+}
+#Saturn-PC {
+  margin-top: 200px;
+  margin-left: 350px;
+}
+#Uranus-PC {
+  margin-top: 200px;
+  margin-left: 200px;
+}
+#Neptune-PC {
+  margin-top: 200px;
+  margin-left: 110px;
+}
+#Pluto-PC {
+  margin-top: 150px;
+  margin-left: -75px;
 }
