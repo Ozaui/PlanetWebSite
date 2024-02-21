@@ -1,3 +1,10 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+ul {
+  list-style: none;
+}
 .navbar-brand {
   margin-top: 10px;
 }
@@ -15,7 +22,7 @@
   height: 25vh;
   object-fit: cover;
 }
-/* Ekran genişliği 600px'den büyükse farklı arka plan */
+
 @media screen and (min-width: 100px) {
   #MilkyWayGalaxyBg {
     background-image: url("img/MilkyWayPlanets-mobile.jpg");
@@ -23,10 +30,60 @@
   }
 }
 
-/* Ekran genişliği 1200px'den büyükse daha farklı arka plan */
 @media screen and (min-width: 1000px) {
   #MilkyWayGalaxyBg {
     background-image: url("img/MilkyWayPlanets.jpg");
     height: 1080px;
   }
+}
+/* Mobil için buttonlar */
+#responsiveButton {
+  display: none; /* Düğmeyi varsayılan olarak gizle */
+}
+
+@media only screen and (max-width: 1000px) {
+  #responsiveButton {
+    display: block; /* Ekran genişliği 600 pikselden küçükse düğmeyi göster */
+  }
+}
+
+#Sun-mobile {
+  margin-top: 150px;
+  margin-left: 60px;
+}
+#Mercury-mobile {
+  margin-top: 140px;
+  margin-left: 60px;
+}
+#Venus-mobile {
+  margin-top: 60px;
+  margin-left: 60px;
+}
+#Earth-mobile {
+  margin-top: 110px;
+  margin-left: 60px;
+}
+#Mars-mobile {
+  margin-top: 100px;
+  margin-left: 60px;
+}
+#Jupiter-mobile {
+  margin-top: 175px;
+  margin-left: 60px;
+}
+#Saturn-mobile {
+  margin-top: 250px;
+  margin-left: 60px;
+}
+#Uranus-mobile {
+  margin-top: 200px;
+  margin-left: 60px;
+}
+#Neptune-mobile {
+  margin-top: 100px;
+  margin-left: 60px;
+}
+#Pluto-mobile {
+  margin-top: 45px;
+  margin-left: 60px;
 }
