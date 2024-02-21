@@ -11,9 +11,7 @@ ul {
 #logo {
   width: 125px;
 }
-#main {
-  background: #085e7d !important;
-}
+
 #footer {
   background: #085e7d !important;
 }
@@ -33,6 +31,7 @@ ul {
 @media screen and (min-width: 1000px) {
   #MilkyWayGalaxyBg {
     background-image: url("img/MilkyWayPlanets.jpg");
+    background-size: cover;
     height: 1080px;
   }
 }
