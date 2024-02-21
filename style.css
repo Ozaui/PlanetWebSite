@@ -1,9 +1,9 @@
+.row > * {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
 body {
   overflow-x: hidden;
-}
-* {
-  margin: 0px;
-  padding: 0px;
 }
 ul {
   list-style: none;
@@ -139,4 +139,22 @@ ul {
 #Pluto-PC {
   margin-top: 200px;
   margin-left: 10px;
+}
+
+/* Planets */
+
+/* Sun */
+@media screen and (min-width: 100px) {
+  #SunBg {
+    background-image: url("img/Sun-mobile.jpg");
+    height: 900px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  #SunBg {
+    background-image: url("img/Sun.jpg");
+    background-size: cover;
+    height: 1080px;
+  }
 }
