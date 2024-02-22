@@ -1,10 +1,17 @@
-.row > * {
-  padding-left: 0px !important;
-  padding-right: 0px !important;
-}
-p {
+main p {
   text-align: left;
 }
+@media screen and (min-width: 100px) {
+  main p {
+    font-size: 14px !important;
+  }
+}
+@media screen and (min-width: 1000px) {
+  main p {
+    font-size: 20px !important;
+  }
+}
+
 body {
   overflow-x: hidden !important;
   scroll-behavior: smooth;
@@ -155,7 +162,7 @@ ul {
 /* Sun */
 @media screen and (min-width: 100px) {
   #SunBg {
-    background-image: url("img/Sun-mobile.jpg");
+    background-image: url("img/Sun-mobile.png");
     height: 900px;
     width: auto;
   }
@@ -163,6 +170,110 @@ ul {
 
 @media screen and (min-width: 1000px) {
   #SunBg {
+    background-image: url("img/Sun-PC.png");
+    background-size: cover;
+    height: 1080px;
+  }
+}
+
+/* Mercury */
+
+@media screen and (min-width: 100px) {
+  #MercuryBg {
+    background-image: url("img/Mercury-mobile.png");
+    height: 900px;
+    width: auto;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  #MercuryBg {
+    background-image: url("img/Sun-PC.png");
+    background-size: cover;
+    height: 1080px;
+  }
+}
+
+/* Venus */
+
+@media screen and (min-width: 100px) {
+  #VenusBg {
+    background-image: url("img/Venus-mobile.png");
+    height: 900px;
+    width: auto;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  #VenusBg {
+    background-image: url("img/Sun-PC.png");
+    background-size: cover;
+    height: 1080px;
+  }
+}
+
+/* Earth */
+@media screen and (min-width: 100px) {
+  #EarthBg {
+    background-image: url("img/Earth-moble.png");
+    height: 900px;
+    width: auto;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  #EarthBg {
+    background-image: url("img/Sun-PC.png");
+    background-size: cover;
+    height: 1080px;
+  }
+}
+
+/* Mars */
+@media screen and (min-width: 100px) {
+  #MarsBg {
+    background-image: url("img/Mars-mobile.png");
+    height: 900px;
+    width: auto;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  #MarsBg {
+    background-image: url("img/Sun-PC.png");
+    background-size: cover;
+    height: 1080px;
+  }
+}
+
+/* Jupiter */
+@media screen and (min-width: 100px) {
+  #JupiterBg {
+    background-image: url("img/Jupiter-mobile.png");
+    height: 900px;
+    width: auto;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  #JupiterBg {
+    background-image: url("img/Sun-PC.png");
+    background-size: cover;
+    height: 1080px;
+  }
+}
+
+/* Saturn */
+@media screen and (min-width: 100px) {
+  #SaturnBg {
+    background-image: url("img/Saturn-mobile.png");
+    height: 900px;
+    width: auto;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  #SaturnBg {
     background-image: url("img/Sun-PC.png");
     background-size: cover;
     height: 1080px;
