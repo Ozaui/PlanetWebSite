@@ -38,6 +38,7 @@ ul {
 #logo {
   width: 125px;
 }
+
 #PC-button a,
 #Mobile-button a,
 main a {
@@ -53,26 +54,26 @@ main a {
 
 @media screen and (min-width: 100px) {
   #MilkyWayGalaxyBg {
-    background-image: url("img/MilkyWayPlanets-mobile.jpg");
+    background-image: url("img/SolaySystem-mobile.jpg");
     height: 1713px;
   }
 }
 
 @media screen and (min-width: 1000px) {
   #MilkyWayGalaxyBg {
-    background-image: url("img/MilkyWayPlanet.jpg");
+    background-image: url("img/SolarSystem.jpg");
     background-size: cover;
     height: 1080px;
   }
 }
 /* Mobil için buttonlar */
 #responsiveButton {
-  display: none; /* Düğmeyi varsayılan olarak gizle */
+  display: none;
 }
 
 @media only screen and (max-width: 1000px) {
   #responsiveButton {
-    display: block; /* Ekran genişliği 600 pikselden küçükse düğmeyi göster */
+    display: block;
   }
 }
 
@@ -199,7 +200,7 @@ main a {
 
 @media screen and (min-width: 1000px) {
   #MercuryBg {
-    background-image: url("img/Sun-PC.png");
+    background-image: url("img/Mercury-PC.png");
     background-size: cover;
     height: 1080px;
   }
@@ -217,7 +218,7 @@ main a {
 
 @media screen and (min-width: 1000px) {
   #VenusBg {
-    background-image: url("img/Sun-PC.png");
+    background-image: url("img/Venus-PC.png");
     background-size: cover;
     height: 1080px;
   }
@@ -234,7 +235,7 @@ main a {
 
 @media screen and (min-width: 1000px) {
   #EarthBg {
-    background-image: url("img/Sun-PC.png");
+    background-image: url("img/Earth-PC.png");
     background-size: cover;
     height: 1080px;
   }
@@ -251,7 +252,7 @@ main a {
 
 @media screen and (min-width: 1000px) {
   #MarsBg {
-    background-image: url("img/Sun-PC.png");
+    background-image: url("img/Mars-PC.png");
     background-size: cover;
     height: 1080px;
   }
@@ -268,7 +269,7 @@ main a {
 
 @media screen and (min-width: 1000px) {
   #JupiterBg {
-    background-image: url("img/Sun-PC.png");
+    background-image: url("img/Jupiter-PC.png");
     background-size: cover;
     height: 1080px;
   }
@@ -285,12 +286,64 @@ main a {
 
 @media screen and (min-width: 1000px) {
   #SaturnBg {
-    background-image: url("img/Sun-PC.png");
+    background-image: url("img/Saturn-PC.png");
     background-size: cover;
     height: 1080px;
   }
 }
 
-#footer {
+/* Uranus */
+@media screen and (min-width: 100px) {
+  #UranusBg {
+    background-image: url("img/Uranus-mobile.png");
+    height: 900px;
+    width: auto;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  #UranusBg {
+    background-image: url("img/Uranus-PC.png");
+    background-size: cover;
+    height: 1080px;
+  }
+}
+
+/* Neptune */
+@media screen and (min-width: 100px) {
+  #NeptuneBg {
+    background-image: url("img/Neptune-mobile.png");
+    height: 900px;
+    width: auto;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  #NeptuneBg {
+    background-image: url("img/Neptune-PC.png");
+    background-size: cover;
+    height: 1080px;
+  }
+}
+
+/* Pluto */
+@media screen and (min-width: 100px) {
+  #PlutoBg {
+    background-image: url("img/Pluto-mobile.png");
+    height: 900px;
+    width: auto;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  #PlutoBg {
+    background-image: url("img/Pluto-PC.png");
+    background-size: cover;
+    height: 1080px;
+  }
+}
+
+/* Footer */
+footer {
   background: black !important;
 }
