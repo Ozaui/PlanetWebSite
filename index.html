@@ -21,45 +21,50 @@
     <title>Planet</title>
   </head>
   <body>
-    <!---------------------------- BACKGROUND IMAGE ----------------------------------->
+    <!---------------------------- NAVBAR ----------------------------------->
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top" id="navbar">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">
+          <img src="img/logo.png" alt="" id="logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mobile"
+        >
+          <span class="navbar-toggler-icon"> </span>
+        </button>
+        <div id="mobile" class="collapse navbar-collapse">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link active"
+                ><p class="h4">Home</p></a
+              >
+            </li>
+            <li>
+              <a href="SolaySystem.html" class="nav-link"
+                ><p class="h4">Solar System</p></a
+              >
+            </li>
+
+            <li>
+              <a href="SolarSystemForKids.html" class="nav-link"
+                ><p class="h4">Solar System For Kids</p></a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
     <div
       class="bg-image"
       style="background-image: url('img/Background.png'); height: 100vh"
     >
       <!---------------------------- NAVBAR ----------------------------------->
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top" id="navbar">
-        <div class="container">
-          <a href="index.html" class="navbar-brand">
-            <img src="img/logo.png" alt="" id="logo" />
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#mobile"
-          >
-            <span class="navbar-toggler-icon"> </span>
-          </button>
-          <div id="mobile" class="collapse navbar-collapse">
-            <ul class="navbar-nav mx-auto">
-              <li class="nav-item">
-                <a href="index.html" class="nav-link active"
-                  ><p class="h4">Home</p></a
-                >
-              </li>
-              <li>
-                <a href="SolaySystem.html" class="nav-link"
-                  ><p class="h4">Solar System</p></a
-                >
-              </li>
-              <!-- Çocuklar için olan kısım (Eğer yaparsak) -->
-              <!-- <li>
-              <a href="contact.html" class="nav-link">Milky Way Galaxy For Kids</a>
-            </li> -->
-            </ul>
-          </div>
-        </div>
-      </nav>
+
       <div class="text-center pt-5 px-4 border-bottom">
         <h1 class="display-4 fw-bold text-white py-5">Solar System Planets</h1>
         <div class="col-lg-6 mx-auto">
@@ -74,13 +79,13 @@
               <a href="SolaySystem.html">Go to solar system planets</a>
             </button>
           </div>
-          <div class="overflow-hidden" style="max-height: 30vh">
+          <div class="overflow-hidden" style="max-height: 40vh">
             <div class="container px-5">
               <img
-                src="img/494-536x354.jpg"
+                src="img/SolarSystem.jpg"
                 alt=""
                 class="img-fluid border rounded-3 shadow-lg mb-4"
-                width="700"
+                width="800"
               />
             </div>
           </div>
@@ -88,163 +93,41 @@
       </div>
     </div>
 
-    <!---------------------------- HEADER ----------------------------------->
-    <header>
+    <div
+      class="bg-image"
+      style="background-image: url('img/Background.png'); height: 100vh"
+    >
+      <!---------------------------- NAVBAR ----------------------------------->
+
       <div class="text-center pt-5 px-4 border-bottom">
-        <h1 class="display-4 fw-bold">Avesome Blog</h1>
+        <h1 class="display-4 fw-bold text-white py-5">
+          Solar System Planets For Kids
+        </h1>
         <div class="col-lg-6 mx-auto">
-          <p class="lead mb-4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
-            sapiente libero praesentium debitis porro ipsam sunt in cumque
-            veritatis labore!
+          <p class="lead mb-4 text-white">
+            Hello Little Astronaut! Are you ready to explore our solar system?
+            <br /><br />
+            Let's embark on a fun journey together and dive into science-filled
+            adventures! 🚀✨
           </p>
           <div class="d-grid gap-2 d-md-flex justify-content-md-center mb-5">
-            <button class="btn btn-primary">
-              <i class="fa-solid fa-caret-right"></i>Button
-            </button>
-            <button class="btn btn-secondary">
-              <i class="fa-solid fa-caret-right"></i>Button
+            <button class="btn btn-outline-light">
+              <a href="SolaySystem.html">Go to solar system planets</a>
             </button>
           </div>
-          <div class="overflow-hidden" style="max-height: 30vh">
+          <div class="overflow-hidden" style="max-height: 40vh">
             <div class="container px-5">
               <img
-                src="img/494-536x354.jpg"
+                src="img/SolarSystem.jpg"
                 alt=""
                 class="img-fluid border rounded-3 shadow-lg mb-4"
-                width="700"
+                width="800"
               />
             </div>
           </div>
         </div>
       </div>
-    </header>
-
-    <!---------------------------- MAIN ----------------------------------->
-    <main>
-      <div class="px-5 py-4 text-center text-white" id="main">
-        <div class="py-5">
-          <h1 class="display-5 fw-bold">Lorem, ipsum.</h1>
-          <div class="col-lg-6 mx-auto">
-            <p class="lead mb-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
-              sapiente libero praesentium debitis porro ipsam sunt in cumque
-              veritatis labore!
-            </p>
-            <div class="d-grid gap-2 d-md-flex justify-content-md-center">
-              <button class="btn btn-outline-warning">
-                <i class="fa-solid fa-caret-right"></i>Button
-              </button>
-              <button class="btn btn-outline-light">
-                <i class="fa-solid fa-caret-right"></i>Button
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!---------------------------- CARDS ----------------------------------->
-      <div class="container my-4">
-        <div class="row">
-          <div class="col-lg-3 col-md-4 col-sm-6">
-            <div class="card mb-3 shadows">
-              <img src="img/165-536x354.jpg" class="card-img-top" alt="" />
-              <div class="card-body">
-                <h5 class="card-title">Lorem, ipsum.</h5>
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Distinctio, impedit.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 col-sm-6">
-            <div class="card mb-3 shadows">
-              <img src="img/209-536x354.jpg" class="card-img-top" alt="" />
-              <div class="card-body">
-                <h5 class="card-title">Lorem, ipsum.</h5>
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Distinctio, impedit.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 col-sm-6">
-            <div class="card mb-3 shadows">
-              <img src="img/494-536x354.jpg" class="card-img-top" alt="" />
-              <div class="card-body">
-                <h5 class="card-title">Lorem, ipsum.</h5>
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Distinctio, impedit.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 col-sm-6">
-            <div class="card mb-3 shadows">
-              <img src="img/66-536x354.jpg" class="card-img-top" alt="" />
-              <div class="card-body">
-                <h5 class="card-title">Lorem, ipsum.</h5>
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Distinctio, impedit.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 col-sm-6">
-            <div class="card mb-3 shadows">
-              <img src="img/855-536x354.jpg" class="card-img-top" alt="" />
-              <div class="card-body">
-                <h5 class="card-title">Lorem, ipsum.</h5>
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Distinctio, impedit.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 col-sm-6">
-            <div class="card mb-3 shadows">
-              <img src="img/862-536x354.jpg" class="card-img-top" alt="" />
-              <div class="card-body">
-                <h5 class="card-title">Lorem, ipsum.</h5>
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Distinctio, impedit.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 col-sm-6">
-            <div class="card mb-3 shadows">
-              <img src="img/165-536x354.jpg" class="card-img-top" alt="" />
-              <div class="card-body">
-                <h5 class="card-title">Lorem, ipsum.</h5>
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Distinctio, impedit.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 col-sm-6">
-            <div class="card mb-3 shadows">
-              <img src="img/165-536x354.jpg" class="card-img-top" alt="" />
-              <div class="card-body">
-                <h5 class="card-title">Lorem, ipsum.</h5>
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Distinctio, impedit.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </main>
+    </div>
 
     <!---------------------------- FOOTER ----------------------------------->
 
