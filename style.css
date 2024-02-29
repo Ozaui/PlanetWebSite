@@ -124,7 +124,7 @@ button a {
 
 @media screen and (min-width: 1000px) {
   #MilkyWayGalaxyBg-mobile {
-    background-image: url("img/Background-Kids.gif");
+    background-image: url("img/Background-Kids.gif.gif");
     background-size: cover;
     height: 1080px;
   }
