@@ -1,6 +1,6 @@
 window.addEventListener("beforeunload", function (event) {
   // Uyarı mesajı
-  var confirmationMessage = "Sayfadan ayrılmak istediğinizden emin misiniz?";
+  var confirmationMessage = "Want to reserve more planets?";
 
   // Modern tarayıcılarda uyarı mesajını görüntüleme
   event.returnValue = confirmationMessage;
